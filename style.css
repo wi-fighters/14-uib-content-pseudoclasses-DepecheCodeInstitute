@@ -1,15 +1,17 @@
 :root {
     background-color: mediumturquoise;
+    
 }
 
+#container {
+    text-align: center;
+}
 button {
-
-}
-button:link {
-    color:greenyellow;
+    background-color:greenyellow;
 }
 button:visited {
-    color: red;
+    background-color: red !important;
+    /* apparently I need JS to make my dreams come true... later... */
 }
 
 li {
@@ -18,6 +20,7 @@ li {
 
 li:hover {
     color:blue;
+    /* this will only affect the actual list points, not the text in the list lines */
 }
 
 :focus {
