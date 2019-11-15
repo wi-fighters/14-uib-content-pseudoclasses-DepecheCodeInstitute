@@ -1,0 +1,21 @@
+button {
+
+}
+button:link {
+    color:greenyellow;
+}
+button:visited {
+    color: red;
+}
+
+li {
+    list-style-type: lower-alpha;
+}
+
+li:hover {
+    color:blue;
+}
+
+:focus {
+    color:magenta;
+}
